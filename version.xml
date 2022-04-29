@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE version SYSTEM "../../../lib/pkp/dtd/pluginVersion.dtd">
 <version>
-	<application>tutorialExample</application>
-	<type>plugins.generic</type>
-	<release>0.1.0.0</release>
-	<date>2019-05-15</date>
+	<application>quartzOA</application>
+	<type>plugins.blocks</type>
+	<release>0.1.0.2</release>
+	<date>2022-04-29</date>
 	<lazy-load>1</lazy-load>
-	<class>TutorialExamplePlugin</class>
+	<class>QuartzOAPlugin</class>
 </version>
