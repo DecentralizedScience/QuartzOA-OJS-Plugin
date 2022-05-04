@@ -73,7 +73,7 @@ class QuartzOASettingsForm extends Form {
 		import('classes.notification.NotificationManager');
 		$notificationMgr = new NotificationManager();
 		$notificationMgr->createTrivialNotification(
-      Application::get()->getRequest()->getUser()->getId(),
+      PKPApplication::getRequest()->getUser()->getId(),
       NOTIFICATION_TYPE_SUCCESS,
       ['contents' => __('common.changesSaved')]
     );
