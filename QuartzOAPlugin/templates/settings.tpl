@@ -19,7 +19,7 @@
         type="text"
         id="secretKey"
         value=$secretKey
-        label="Secret Key"
+        label="plugins.blocks.quartzOA.manager.settings.secretKey"
       }
 		{/fbvFormSection}
   {/fbvFormArea}
