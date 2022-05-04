@@ -38,10 +38,6 @@ class QuartzOAPlugin extends BlockPlugin {
 		return parent::getContents($templateMgr, $request);
 	}
 
-	public function isSitePlugin() {
-		return true;
-	}
-
 	public function getActions($request, $actionArgs) {
 
 		// Get the existing actions
