@@ -62,7 +62,7 @@ class QuartzOAPlugin extends BlockPlugin {
 					array(
 						'verb' => 'settings',
 						'plugin' => $this->getName(),
-						'category' => 'generic'
+						'category' => 'blocks'
 					)
 				),
 				$this->getDisplayName()
