@@ -12,6 +12,8 @@ Copy and update config file:
 cp Quartz-platform/src/components/config.json.example Quartz-platform/src/components/config.json
 ```
 
+Then, update `Quartz-platform/src/components/config.json` file with the ILP Wallet account and PayPal account email information.
+
 To build the plugin, run:
 
 ``` bash

@@ -38,6 +38,10 @@ class QuartzOAPlugin extends BlockPlugin {
 		return parent::getContents($templateMgr, $request);
 	}
 
+	public function isSitePlugin() {
+		return true;
+	}
+
 	public function getActions($request, $actionArgs) {
 
 		// Get the existing actions
@@ -81,14 +85,32 @@ class QuartzOAPlugin extends BlockPlugin {
 
 	public function manage($args, $request) {
 		switch ($request->getUserVar('verb')) {
+      case 'settings':
 
-			// Return a JSON response containing the
-			// settings form
-			case 'settings':
-			$templateMgr = TemplateManager::getManager($request);
-			$settingsForm = $templateMgr->fetch($this->getTemplateResource('settings.tpl'));
-			return new JSONMessage(true, $settingsForm);
+        // Load the custom form
+        $this->import('QuartzOASettingsForm');
+				$request = PKPApplication::getRequest();
+				$context = $request->getContext();
+				// This should only ever happen within a context, never site-wide.
+				assert($context != null);
+				$contextId = $context->getId();
+        $form = new QuartzOASettingsForm($this);
+
+        // Fetch the form the first time it loads, before
+        // the user has tried to save it
+        if (!$request->getUserVar('save')) {
+          $form->initData();
+				  return new JSONMessage(true, $form->fetch($request));
+        }
+
+        // Validate and execute the form
+        $form->readInputData();
+        if ($form->validate()) {
+          $form->execute();
+          return new JSONMessage(true);
+        }
 		}
 		return parent::manage($args, $request);
 	}
+
 }
