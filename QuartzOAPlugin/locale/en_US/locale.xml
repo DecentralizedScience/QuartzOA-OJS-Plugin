@@ -13,7 +13,6 @@
   -->
 
 <locale name="en_US" full_name="U.S. English">
-
-	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ILP Wallet ID. Request yours here!</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ILP Wallet ID. Request yours <a href="partners@quartz.to">here</a>!</message>
 	<message key="plugins.blocks.quartzOA.manager.settings.paypalEmail">Your PayPal account email</message>
 </locale>
