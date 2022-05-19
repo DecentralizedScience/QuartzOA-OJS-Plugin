@@ -2,6 +2,9 @@
 
 This is the official [Quartz OA](https://quartz.to) plugin to enable micropayments to your Open Access journals.
 
+## Install Plugin
+
+To install the plugin follow these [Install Instructions](https://github.com/DecentralizedScience/QuartzOA-OJS-Plugin/wiki/Install-Quartz-OA-OJS-Plugin).
 
 ## Build Plugin
 
