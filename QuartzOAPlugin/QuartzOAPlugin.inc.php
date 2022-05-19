@@ -34,7 +34,9 @@ class QuartzOAPlugin extends BlockPlugin {
 	}
 
 	public function getContents($templateMgr, $request = null) {
-		$templateMgr->assign('madeByText', 'Made with ❤ by the Quartz OA team');
+
+		$templateMgr->assign('paypalEmail', $this->getSetting( $request->getContext()->getId(), 'paypalEmail'));
+		$templateMgr->assign('ilpWallet', $this->getSetting( $request->getContext()->getId(), 'ilpWallet'));
 		return parent::getContents($templateMgr, $request);
 	}
 

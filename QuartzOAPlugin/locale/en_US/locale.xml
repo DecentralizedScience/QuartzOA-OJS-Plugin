@@ -14,5 +14,6 @@
 
 <locale name="en_US" full_name="U.S. English">
 
-	<message key="plugins.blocks.quartzOA.manager.settings.secretKey">Secret Key</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ILP Wallet ID. Request yours here!</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.paypalEmail">Your PayPal account email</message>
 </locale>

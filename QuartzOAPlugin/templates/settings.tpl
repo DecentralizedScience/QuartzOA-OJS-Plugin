@@ -16,10 +16,16 @@
   {fbvFormArea}
 		{fbvFormSection}
 			{fbvElement
+				type="text"
+				id="paypalEmail"
+				value=$paypalEmail
+				label="plugins.blocks.quartzOA.manager.settings.paypalEmail"
+			}
+			{fbvElement
         type="text"
-        id="secretKey"
-        value=$secretKey
-        label="plugins.blocks.quartzOA.manager.settings.secretKey"
+        id="ilpWallet"
+        value=$ilpWallet
+        label="plugins.blocks.quartzOA.manager.settings.ilpWallet"
       }
 		{/fbvFormSection}
   {/fbvFormArea}

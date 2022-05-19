@@ -34,7 +34,9 @@ class QuartzOASettingsForm extends Form {
    */
 	public function initData() {
 
-    $this->setData('secretKey', $this->plugin->getSetting($this->contextId, 'secretKey'));
+    $this->setData('paypalEmail', $this->plugin->getSetting($this->contextId, 'paypalEmail'));
+    $this->setData('ilpWallet', $this->plugin->getSetting($this->contextId, 'ilpWallet'));
+
     parent::initData();
 	}
 
@@ -42,7 +44,7 @@ class QuartzOASettingsForm extends Form {
    * Load data that was submitted with the form
    */
 	public function readInputData() {
-		$this->readUserVars(['secretKey']);
+		$this->readUserVars(['paypalEmail', 'ilpWallet']);
     parent::readInputData();
   }
 
@@ -67,7 +69,8 @@ class QuartzOASettingsForm extends Form {
 	 * Save the settings
 	 */
 	public function execute() {
-		$this->plugin->updateSetting($this->contextId, 'secretKey', $this->getData('secretKey'));
+		$this->plugin->updateSetting($this->contextId, 'paypalEmail', $this->getData('paypalEmail'));
+    $this->plugin->updateSetting($this->contextId, 'ilpWallet', $this->getData('ilpWallet'));
 
     // Tell the user that the save was successful.
 		import('classes.notification.NotificationManager');
