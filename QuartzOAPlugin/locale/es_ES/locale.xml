@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/block/QuartzOAPlugin/locale/es_ES/locale.xml
+  *
+  * Copyright (c) 2015-2019 University of Pittsburgh
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * QuartzOAP plugin localization strings
+  -->
+
+<locale name="es_ES" full_name="Castellano (España)">
+  <message key="plugins.blocks.quartzOA.displayName">Quartz OA</message>
+  <message key="plugins.blocks.quartzOA.description">Este plugin habilita las donaciones y microdonaciones por medio de la monetización web de <a href="https://quartz.to">Quartz OA</a> .</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ID de Billetera ILP. ¡Solicite la suya <a href="mailto:partners@quartz.to">aquí</a>!</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.paypalEmail">Correo electrónico de su cuenta de PayPal</message>
+</locale>
