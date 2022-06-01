@@ -1,0 +1,25 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-06-01T00:55:57+00:00\n"
+"PO-Revision-Date: 2022-06-01 09:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_ES\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0.1\n"
+
+msgid "plugins.blocks.quartzOA.displayName"
+msgstr "Quartz OA"
+
+msgid "plugins.blocks.quartzOA.description"
+msgstr "Este plugin habilita las donaciones y microdonaciones por medio de la monetización web de <a href=\"https://quartz.to\">Quartz OA</a> ."
+
+msgid "plugins.blocks.quartzOA.manager.settings.ilpWallet"
+msgstr "ID de Billetera ILP. ¡Solicite la suya <a href=\"partners@quartz.to\">aquí</a>!"
+
+msgid "plugins.blocks.quartzOA.manager.settings.paypalEmail"
+msgstr "Correo electrónico de su cuenta de PayPal"
