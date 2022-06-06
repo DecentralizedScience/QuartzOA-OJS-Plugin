@@ -21,7 +21,7 @@ class QuartzOAPlugin extends BlockPlugin {
 	*/
 	public function getDisplayName() {
 		
-		return __('plugins.block.QuartzOAPlugin.displayName');
+		return __('plugins.blocks.quartzOA.displayName');
 	}
 
 	/**
@@ -31,7 +31,7 @@ class QuartzOAPlugin extends BlockPlugin {
 	* install, enable and disable plugins.
 	*/
 	public function getDescription() {
-		return __('plugins.block.QuartzOAPlugin.description');;
+		return __('plugins.blocks.quartzOA.description');;
 	}
 
 	public function getContents($templateMgr, $request = null) {
