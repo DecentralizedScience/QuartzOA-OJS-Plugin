@@ -20,7 +20,8 @@ class QuartzOAPlugin extends BlockPlugin {
 	* install, enable and disable plugins.
 	*/
 	public function getDisplayName() {
-		return 'Quartz OA';
+		
+		return __('plugins.blocks.quartzOA.displayName');
 	}
 
 	/**
@@ -30,7 +31,7 @@ class QuartzOAPlugin extends BlockPlugin {
 	* install, enable and disable plugins.
 	*/
 	public function getDescription() {
-		return 'This plugin enables <a href="https://quartz.to">Quartz OA</a> donations and microdonations using web monetization.';
+		return __('plugins.blocks.quartzOA.description');;
 	}
 
 	public function getContents($templateMgr, $request = null) {
