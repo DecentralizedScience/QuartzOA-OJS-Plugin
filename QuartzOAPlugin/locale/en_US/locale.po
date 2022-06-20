@@ -19,7 +19,7 @@ msgid "plugins.blocks.quartzOA.description"
 msgstr "This plugin enables <a href=\"https://quartz.to\">Quartz OA</a> donations and microdonations using web monetization."
 
 msgid "plugins.blocks.quartzOA.manager.settings.ilpWallet"
-msgstr "ILP Wallet ID. Request yours <a href=\"partners@quartz.to\">here</a>!"
+msgstr "To request your ID, email us at partners@quartz.to."
 
 msgid "plugins.blocks.quartzOA.manager.settings.paypalEmail"
 msgstr "Your PayPal account email"

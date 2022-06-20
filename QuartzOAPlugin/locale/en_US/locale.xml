@@ -16,6 +16,6 @@
 <locale name="en_US" full_name="U.S. English">
   <message key="plugins.blocks.quartzOA.displayName">Quartz OA</message>
   <message key="plugins.blocks.quartzOA.description">This plugin enables <a href="https://quartz.to">Quartz OA</a> donations and microdonations using web monetization.</message>
-	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ILP Wallet ID. Request yours <a href="mailto:partners@quartz.to">here</a>!</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ILP Wallet ID. To request your ID, email us at partners@quartz.to.</message>
 	<message key="plugins.blocks.quartzOA.manager.settings.paypalEmail">Your PayPal account email</message>
 </locale>

@@ -15,6 +15,6 @@
 <locale name="es_ES" full_name="Castellano (España)">
   <message key="plugins.blocks.quartzOA.displayName">Quartz OA</message>
   <message key="plugins.blocks.quartzOA.description">Este plugin habilita las donaciones y microdonaciones por medio de la monetización web de <a href="https://quartz.to">Quartz OA</a> .</message>
-	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ID de Billetera ILP. ¡Solicite la suya <a href="mailto:partners@quartz.to">aquí</a>!</message>
+	<message key="plugins.blocks.quartzOA.manager.settings.ilpWallet">ID de Billetera ILP. Solicite la suya enviando un email a partners@quartz.to</message>
 	<message key="plugins.blocks.quartzOA.manager.settings.paypalEmail">Correo electrónico de su cuenta de PayPal</message>
 </locale>
